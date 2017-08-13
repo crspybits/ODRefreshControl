@@ -27,6 +27,9 @@
 
 @property (nonatomic, readonly, getter=isRefreshing) BOOL refreshing;
 
+// 5/6/17; CGP; Added.
+@property (nonatomic) CGFloat yOffset;
+
 #ifdef __IPHONE_5_0
 @property (nonatomic, strong) UIColor *tintColor UI_APPEARANCE_SELECTOR;
 @property (nonatomic, assign) UIActivityIndicatorViewStyle activityIndicatorViewStyle UI_APPEARANCE_SELECTOR;
